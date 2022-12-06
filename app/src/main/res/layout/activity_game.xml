@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA7AC5"
+    android:onClick="onClickListener"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/hole10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole7"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hole3"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/hole1"
+        app:layout_constraintTop_toBottomOf="@+id/hole8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/hole3"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/hole1"
+        app:layout_constraintTop_toBottomOf="@+id/hole5"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole6"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole4"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/hole3"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/hole1"
+        app:layout_constraintTop_toBottomOf="@+id/hole2"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole3"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole1"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toStartOf="@+id/hole3"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/hole1"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/hole3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView"
+        app:srcCompat="@drawable/mole_hole_icon_clipart_image_isolated_white_background_210307961_removebg_preview" />
+
+    <TextView
+        android:id="@+id/escapedtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Escaped"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreGameActivityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/highScoreNumberTextview"
+        android:layout_width="63dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView" />
+
+    <TextView
+        android:id="@+id/scoreNumberTextView"
+        android:layout_width="67dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/highScoreGameActivityTextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/scoreTextView"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="88dp"
+        android:text="Score:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView" />
+
+    <TextView
+        android:id="@+id/highScoreGameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="20dp"
+        android:text="High Score:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/highScoreNumberTextview"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toEndOf="@+id/scoreNumberTextView"
+        app:layout_constraintTop_toBottomOf="@+id/escapedtextView" />
+
+
+    <ImageView
+        android:id="@+id/moleimage"
+        android:layout_width="74dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="24dp"
+        android:onClick="onClickListener"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTextView"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/_90178640_ground_mole_icon_cartoon_vector_hole_animal_game_whack_removebg_preview" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
